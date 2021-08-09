@@ -16,13 +16,13 @@ int main(int argc, const char * argv[]) {
     std::cin >> range;
     int earthWorm [range]; // сам червяк
     // Заполним червяка
-    for (int i = 0; i <= range; ++i) {
+    for (int i = 0; i < range; ++i) {
         std::cout << "Enter " << i + 1 << " number of "
                 << quantityTotalNumbers << " : ";
         std::cin >> earthWorm[i];
     }
     //проходим по дальнейшим числам и вытаскиваем/засовываем их из/в червяка
-    for (int i = range + 1; i < quantityTotalNumbers; ++i) {
+    for (int i = range; i < quantityTotalNumbers; ++i) {
         int currentNumber;
         std::cout << "Enter " << i + 1 << " number of "
                 << quantityTotalNumbers << " : ";
@@ -34,12 +34,10 @@ int main(int argc, const char * argv[]) {
         //ищем минималное неченое число
         if (livingNumber % 2 != 0 and livingNumber < minOddNumber) {
             minOddNumber = livingNumber;
-            std::cout << "Minimal nember is " << livingNumber << std::endl;
         }
         //ищем минимальное произведение
         if (currentNumber % 2 != 0 and minOddNumber * currentNumber < production) {
             production = minOddNumber * currentNumber;
-            std::cout << "Current production = " << production << std::endl;
             flag = true;
         }
     }
