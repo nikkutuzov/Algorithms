@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		272F04A826CE4AC500A1F9D4 /* earchWorm.cp in Sources */ = {isa = PBXBuildFile; fileRef = 272F04A726CE4AC500A1F9D4 /* earchWorm.cp */; };
 		276FECBC26B58B3D000D6B87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276FECB826B58B3C000D6B87 /* main.cpp */; };
 		276FECBD26B58B3D000D6B87 /* add.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276FECB926B58B3D000D6B87 /* add.cpp */; };
 		276FECBE26B58B3D000D6B87 /* global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276FECBB26B58B3D000D6B87 /* global.cpp */; };
+		279471EA26D38CEA00611475 /* religiouses.cp in Sources */ = {isa = PBXBuildFile; fileRef = 279471E926D38CEA00611475 /* religiouses.cp */; };
+		279471ED26D38D3500611475 /* chauvinism.cp in Sources */ = {isa = PBXBuildFile; fileRef = 279471EC26D38D3500611475 /* chauvinism.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		272F04A726CE4AC500A1F9D4 /* earchWorm.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = earchWorm.cp; sourceTree = "<group>"; };
 		276FECAC26B58AF4000D6B87 /* ravesli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ravesli; sourceTree = BUILT_PRODUCTS_DIR; };
 		276FECB826B58B3C000D6B87 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		276FECB926B58B3D000D6B87 /* add.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = add.cpp; sourceTree = "<group>"; };
 		276FECBA26B58B3D000D6B87 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		276FECBB26B58B3D000D6B87 /* global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = global.cpp; sourceTree = "<group>"; };
+		279471E926D38CEA00611475 /* religiouses.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = religiouses.cp; sourceTree = "<group>"; };
+		279471EC26D38D3500611475 /* chauvinism.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chauvinism.cp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 				276FECBB26B58B3D000D6B87 /* global.cpp */,
 				276FECBA26B58B3D000D6B87 /* Header.h */,
 				276FECB826B58B3C000D6B87 /* main.cpp */,
-				272F04A726CE4AC500A1F9D4 /* earchWorm.cp */,
+				279471E926D38CEA00611475 /* religiouses.cp */,
+				279471EC26D38D3500611475 /* chauvinism.cp */,
 			);
 			path = ravesli;
 			sourceTree = "<group>";
@@ -130,8 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				276FECBC26B58B3D000D6B87 /* main.cpp in Sources */,
-				272F04A826CE4AC500A1F9D4 /* earchWorm.cp in Sources */,
+				279471ED26D38D3500611475 /* chauvinism.cp in Sources */,
 				276FECBD26B58B3D000D6B87 /* add.cpp in Sources */,
+				279471EA26D38CEA00611475 /* religiouses.cp in Sources */,
 				276FECBE26B58B3D000D6B87 /* global.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
