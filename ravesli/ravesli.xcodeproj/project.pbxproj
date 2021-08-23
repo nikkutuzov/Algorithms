@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		276FECBC26B58B3D000D6B87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276FECB826B58B3C000D6B87 /* main.cpp */; };
 		276FECBD26B58B3D000D6B87 /* add.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276FECB926B58B3D000D6B87 /* add.cpp */; };
 		276FECBE26B58B3D000D6B87 /* global.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 276FECBB26B58B3D000D6B87 /* global.cpp */; };
 		279471EA26D38CEA00611475 /* religiouses.cp in Sources */ = {isa = PBXBuildFile; fileRef = 279471E926D38CEA00611475 /* religiouses.cp */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		276FECAC26B58AF4000D6B87 /* ravesli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ravesli; sourceTree = BUILT_PRODUCTS_DIR; };
-		276FECB826B58B3C000D6B87 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		276FECB926B58B3D000D6B87 /* add.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = add.cpp; sourceTree = "<group>"; };
 		276FECBA26B58B3D000D6B87 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		276FECBB26B58B3D000D6B87 /* global.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = global.cpp; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				276FECB926B58B3D000D6B87 /* add.cpp */,
 				276FECBB26B58B3D000D6B87 /* global.cpp */,
 				276FECBA26B58B3D000D6B87 /* Header.h */,
-				276FECB826B58B3C000D6B87 /* main.cpp */,
 				279471E926D38CEA00611475 /* religiouses.cp */,
 				279471EC26D38D3500611475 /* chauvinism.cp */,
 			);
@@ -132,7 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276FECBC26B58B3D000D6B87 /* main.cpp in Sources */,
 				279471ED26D38D3500611475 /* chauvinism.cp in Sources */,
 				276FECBD26B58B3D000D6B87 /* add.cpp in Sources */,
 				279471EA26D38CEA00611475 /* religiouses.cp in Sources */,
