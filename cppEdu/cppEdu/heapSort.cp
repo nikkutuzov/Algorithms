@@ -67,6 +67,7 @@ void heapSort(std::vector<heapData_t> &arr) {
     if (arr.size() <= 1) return;
     
     for (size_t k = 1; k < arr.size(); ++k) {
+// подъем очередного элемента наверх
         size_t currentIndex = k;
         size_t parentIndex =(currentIndex - 1) / 2;
         while (currentIndex != 0 and arr[currentIndex] > arr[parentIndex]) {
