@@ -61,7 +61,7 @@ int main(int argc, const char * argv[]) {
 // создаем нашу кучу - вектор!
     heap_t myHeap;
     
-    int x;
+    heapData_t x;
     std::cin >> x;
 // пока не ввели число 0 будем вставлять в пирамиду значения
     while (x != 0) {
