@@ -5,7 +5,9 @@
 //  Created by Николай Кутузов on 10.09.2021.
 //
 //__________________________________________________________________________________
-//              Бинарный поиск                                                      |
+//              Бинарный поиск - просто ищим левую границу, после которой           |
+//                       может находиться наше искомое число                        |
+//                                                                                  |
 //      Представим ситуацию поиска числа в отсортированном по возрастанию массиве:  |
 // - Сначала мы "стреляем" в серелину и смотрим, в какой половине искомое число.    |
 // - "Стреляем" в середину той половины, где находится искомое число. И так далее,  |
@@ -76,7 +78,7 @@ int main(int argc, const char * argv[]) {
     
     int desiredNumber = enterDesiredNumber();
     
-    printResult (desiredNumber, leftBound(arr, arrLength, desiredNumber));
+    printResult(desiredNumber, leftBound(arr, arrLength, desiredNumber));
     
     return 0;
 }
@@ -112,6 +114,7 @@ int leftBound(int arr[], int arrLength, int desiredNumber) {
     return left;
 }
 
+// распечатка резульата по поиску левого края
 void printResult (int desiredNumber, int findedIndex) {
     std::cout << "Left boundary (index) of the desired number ["
             << desiredNumber << "] is: " << findedIndex;
