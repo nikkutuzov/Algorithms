@@ -2,7 +2,7 @@
 //  main.cpp
 //  cppEdu
 //
-//  Created by Николай Кутузов on 23.08.2021.
+//  Created by Николай Кутузов on 08.09.2021.
 //
 
 #include <iostream>
