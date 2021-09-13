@@ -1,6 +1,5 @@
 //
 //  main.cpp
-//
 //  cppEdu
 //
 //  Created by Николай Кутузов on 10.09.2021.
