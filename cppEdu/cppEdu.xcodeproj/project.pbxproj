@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27927AEA26EF696E0090CEEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27927AE926EF696E0090CEEE /* main.cpp */; };
-		27927AF226EF6A300090CEEE /* chauvinism.cp in Sources */ = {isa = PBXBuildFile; fileRef = 27927AF126EF6A300090CEEE /* chauvinism.cp */; };
+		27927AFA26EF6C460090CEEE /* Euclide.cp in Sources */ = {isa = PBXBuildFile; fileRef = 27927AF926EF6C460090CEEE /* Euclide.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		27927AE926EF696E0090CEEE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
-		27927AF126EF6A300090CEEE /* chauvinism.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chauvinism.cp; path = ../chauvinism.cp; sourceTree = "<group>"; };
+		27927AF926EF6C460090CEEE /* Euclide.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Euclide.cp; path = ../Euclide.cp; sourceTree = "<group>"; };
 		27BED11E26D3A11500757BA9 /* cppEdu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppEdu; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,8 +43,8 @@
 		27BED11526D3A11500757BA9 = {
 			isa = PBXGroup;
 			children = (
-				27927AF126EF6A300090CEEE /* chauvinism.cp */,
 				27927AE926EF696E0090CEEE /* main.cpp */,
+				27927AF926EF6C460090CEEE /* Euclide.cp */,
 				27BED11F26D3A11500757BA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,8 +113,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27927AFA26EF6C460090CEEE /* Euclide.cp in Sources */,
 				27927AEA26EF696E0090CEEE /* main.cpp in Sources */,
-				27927AF226EF6A300090CEEE /* chauvinism.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
