@@ -25,19 +25,19 @@
 //               середина(middle) =  (левая граница + правая граница) / 2           |
 //                                                                                  |
 //      Функция:                                                                    |
-//  int leftBound(int arr[], int arrLength, int desiredNumber) {
-//      int left = -1;          // я верю, что left < desiredNumber
-//      int right = arrLength;  // я верю, что right >= desiredNumber
-//      while (right - left > 1) {
-//      int middle = (left + right) / 2;
-//          if (arr[middle] < desiredNumber)
-//              left = middle;
-//          else
-//              right = middle;
-//      }
-//
-//      return left;
-//  }
+//  int leftBound(int arr[], int arrLength, int desiredNumber) {                    |
+//      int left = -1;                                                              |
+//      int right = arrLength;                                                      |
+//      while (right - left > 1) {                                                  |
+//      int middle = (left + right) / 2;                                            |
+//          if (arr[middle] < desiredNumber)                                        |
+//              left = middle;                                                      |
+//          else                                                                    |
+//              right = middle;                                                     |
+//      }                                                                           |
+//                                                                                  |
+//      return left;                                                                |
+//  }                                                                               |
 // - Напимер, ищем число 5:                                                         |
 // while (right - left > 1) ПОКА ПРАВАЯ ГРАНИЦА - ЛЕВАЯ ГРАНИЦА БОЛЬШЕ ЕДИНИЦЫ:     |
 //            - проверяем условие while (10 - (-1)) > 1                             |
