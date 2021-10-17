@@ -151,7 +151,7 @@ int chessKingDynamicC_Style(int n, int m){
 // высвобожаем память:
     // сначала удаляем каждый K[i], то есть массив строк
     for (int i = 0; i <= n; ++i) {
-        delete K[i] ;
+        delete[] K[i] ;
     }
     // затем удаляем массив столбцов
     delete[] K;
